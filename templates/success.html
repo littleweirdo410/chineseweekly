@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="ru">
+  <head>
+    <title>Подписка оформлена</title>
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800%7CPoppins:300,400,500,600,700%7CMuli:200,300,400,500">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='fonts.css')}}">
+  </head>
+<body>
+
+<div class="layout-4">
+        <div class="layout-4-item-right">
+          <div class="box-custom-2 bg-accent">
+            <div class="box-custom-2-bg bg-gray-900"><img class="map-image" src="" alt=""></div>
+            <center><div class="box-custom-2-inner">
+              <h2 class="wow fadeIn">Ваш адрес электронной почты успешно записан!</h2>
+              <h4 class="text-default wow fadeIn" data-wow-delay=".2s">Ожидайте уведомлений о новых постах!</h4>
+                <div class="form-button">
+                  <form onchange="{{url_for('hi_page')}}"><button class="button button-block button-primary button-winona" type="submit">Назад</button></form>
+                </div></center>
+            </div>
+          </div>
+        </div>
+
+</body>

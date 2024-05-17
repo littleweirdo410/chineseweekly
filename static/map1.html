@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b3a00d92a4f479ca4d011d09a417388 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0b3a00d92a4f479ca4d011d09a417388" ></div>
+        
+</body>
+<script>    
+    
+            var map_0b3a00d92a4f479ca4d011d09a417388 = L.map(
+                "map_0b3a00d92a4f479ca4d011d09a417388",
+                {
+                    center: [36.6, 109.48],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8174c17586c5479b8728ed2d1c53a45b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0b3a00d92a4f479ca4d011d09a417388);
+        
+    
+            var marker_f0f8af115a5b4828b5c21a98dd6d4569 = L.marker(
+                [36.600543, 109.48408],
+                {}
+            ).addTo(map_0b3a00d92a4f479ca4d011d09a417388);
+        
+    
+            var icon_5e6d2cf695034e5d8e3dc1dbf19dc050 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0f8af115a5b4828b5c21a98dd6d4569.setIcon(icon_5e6d2cf695034e5d8e3dc1dbf19dc050);
+        
+    
+            marker_f0f8af115a5b4828b5c21a98dd6d4569.bindTooltip(
+                `<div>
+                     Мавзолей Хуанди-лин
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c1ba9ebb72a43d58e9133b8263fec42 = L.marker(
+                [35.704167, 110.648611],
+                {}
+            ).addTo(map_0b3a00d92a4f479ca4d011d09a417388);
+        
+    
+            var icon_9a58d3d30ef4488282b3d140d2bbfeb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c1ba9ebb72a43d58e9133b8263fec42.setIcon(icon_9a58d3d30ef4488282b3d140d2bbfeb3);
+        
+    
+            marker_3c1ba9ebb72a43d58e9133b8263fec42.bindTooltip(
+                `<div>
+                     Водопад Хукоу
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac7a409599464172aafdf0412129f855 = L.marker(
+                [34.50864, 112.935176],
+                {}
+            ).addTo(map_0b3a00d92a4f479ca4d011d09a417388);
+        
+    
+            var icon_1c357026f3b64dba96eedc1d21747a2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ac7a409599464172aafdf0412129f855.setIcon(icon_1c357026f3b64dba96eedc1d21747a2c);
+        
+    
+            marker_ac7a409599464172aafdf0412129f855.bindTooltip(
+                `<div>
+                     Гора Суншань
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9655040e87564959b35be697a6499c2f = L.marker(
+                [29.726002, 118.32944],
+                {}
+            ).addTo(map_0b3a00d92a4f479ca4d011d09a417388);
+        
+    
+            var icon_dd6d2498c5f24a96b150a0b6925d2c57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9655040e87564959b35be697a6499c2f.setIcon(icon_dd6d2498c5f24a96b150a0b6925d2c57);
+        
+    
+            marker_9655040e87564959b35be697a6499c2f.bindTooltip(
+                `<div>
+                     Парк Хуаншань
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
